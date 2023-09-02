@@ -14,6 +14,8 @@
 		B387994C2AA2CFCA0050FF35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B387994B2AA2CFCA0050FF35 /* Assets.xcassets */; };
 		B387994F2AA2CFCA0050FF35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B387994D2AA2CFCA0050FF35 /* LaunchScreen.storyboard */; };
 		B38799572AA2E8F60050FF35 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38799562AA2E8F60050FF35 /* IntroductionViewController.swift */; };
+		B38799592AA3E48A0050FF35 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38799582AA3E48A0050FF35 /* EducationViewController.swift */; };
+		B387995B2AA3EBCB0050FF35 /* WorkExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B387995A2AA3EBCB0050FF35 /* WorkExperienceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B387994E2AA2CFCA0050FF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B38799502AA2CFCA0050FF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B38799562AA2E8F60050FF35 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		B38799582AA3E48A0050FF35 /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
+		B387995A2AA3EBCB0050FF35 /* WorkExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkExperienceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +64,24 @@
 			children = (
 				B38799422AA2CFCA0050FF35 /* AppDelegate.swift */,
 				B38799442AA2CFCA0050FF35 /* SceneDelegate.swift */,
-				B38799462AA2CFCA0050FF35 /* ViewController.swift */,
-				B38799562AA2E8F60050FF35 /* IntroductionViewController.swift */,
+				B387995C2AA3F1330050FF35 /* View Controllers */,
 				B38799482AA2CFCA0050FF35 /* Main.storyboard */,
 				B387994B2AA2CFCA0050FF35 /* Assets.xcassets */,
 				B387994D2AA2CFCA0050FF35 /* LaunchScreen.storyboard */,
 				B38799502AA2CFCA0050FF35 /* Info.plist */,
 			);
 			path = "ABOUT CAMILO L-SHIDE";
+			sourceTree = "<group>";
+		};
+		B387995C2AA3F1330050FF35 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B38799462AA2CFCA0050FF35 /* ViewController.swift */,
+				B38799562AA2E8F60050FF35 /* IntroductionViewController.swift */,
+				B38799582AA3E48A0050FF35 /* EducationViewController.swift */,
+				B387995A2AA3EBCB0050FF35 /* WorkExperienceViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +158,8 @@
 				B38799572AA2E8F60050FF35 /* IntroductionViewController.swift in Sources */,
 				B38799472AA2CFCA0050FF35 /* ViewController.swift in Sources */,
 				B38799432AA2CFCA0050FF35 /* AppDelegate.swift in Sources */,
+				B387995B2AA3EBCB0050FF35 /* WorkExperienceViewController.swift in Sources */,
+				B38799592AA3E48A0050FF35 /* EducationViewController.swift in Sources */,
 				B38799452AA2CFCA0050FF35 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
