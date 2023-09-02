@@ -1,24 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fAg-Ac-XGR">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Start here!-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ABOUT_CAMILO_L_SHIDE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="It´s all about passion." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URt-Fx-hGi">
+                                <rect key="frame" x="111" y="654" width="171" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhatsApp Image 2022-11-21 at 3.42.48 PM-2" translatesAutoresizingMaskIntoConstraints="NO" id="ogs-v1-cSm">
+                                <rect key="frame" x="64" y="346" width="264" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Get to know Camilo L-Shide" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="krY-vp-HKK">
+                                <rect key="frame" x="86" y="147" width="220" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.88819383741258739" green="0.0" blue="0.16026551573426573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Start here!" id="3xJ-aZ-mbW">
+                        <imageReference key="image" image="person.circle" catalog="system" symbolScale="large" renderingMode="hierarchical" variableValue="1">
+                            <hierarchicalColors>
+                                <color red="0.81176471709999998" green="0.1725490093" blue="0.20000001789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color red="0.81176471709999998" green="0.1725490093" blue="0.20000001789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color red="0.81176471709999998" green="0.1725490093" blue="0.20000001789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1028.2442748091603" y="3.5211267605633805"/>
+        </scene>
+        <!--Introduction-->
+        <scene sceneID="2fo-HD-Str">
+            <objects>
+                <viewController storyboardIdentifier="IntroductionViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="IUC-fB-NIs" customClass="IntroductionViewController" customModule="ABOUT_CAMILO_L_SHIDE" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tq8-Fn-J5u">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="bnn-8F-Lkc"/>
+                        <color key="backgroundColor" red="0.81176471709999998" green="0.1725490093" blue="0.20000001789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Introduction" id="98T-31-AwX">
+                        <imageReference key="image" image="person.fill.questionmark" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                            <hierarchicalColors>
+                                <color red="0.81176471709999998" green="0.1725490093" blue="0.20000001789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color red="0.81176471709999998" green="0.1725490093" blue="0.20000001789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color red="0.81176471709999998" green="0.1725490093" blue="0.20000001789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MZy-Kl-mvm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1026.7175572519084" y="719.71830985915494"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="e5b-9D-aVo">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="fAg-Ac-XGR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LkU-Ka-ePm">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="0aD-Od-xcd"/>
+                        <segue destination="IUC-fB-NIs" kind="relationship" relationship="viewControllers" id="eBL-HL-rGC"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="11d-dp-niJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="WhatsApp Image 2022-11-21 at 3.42.48 PM-2" width="1280" height="1280"/>
+        <image name="person.circle" catalog="system" width="128" height="123"/>
+        <image name="person.fill.questionmark" catalog="system" width="128" height="102"/>
+    </resources>
 </document>
